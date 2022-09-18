@@ -1,0 +1,111 @@
+html {
+  background-color: hsl(0deg 0% 41%);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h3,
+h4,
+h2 {
+  color: #e0a80e;
+}
+
+p,
+ul {
+  color: #929394;
+}
+
+a,
+.text_1 {
+  color: #4682b4;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text_h1 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+hr {
+  width: auto;
+  margin-top: 10px;
+  border-top: 3px solid #3f6b8f;
+  padding-left: 10px
+}
+
+/* блоки */
+.contet {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  justify-content: center;
+}
+
+.item {
+  height: 75px;
+  background-color: #2d2e2e;
+  padding-left: 10px;
+}
+
+.item_7,
+.item_10 {
+  margin-top: 10px;
+}
+
+.item_1 {
+  grid-column: span 4;
+  color: #929394;
+  margin-bottom: 10px;
+}
+
+.item_2 {
+  grid-column: span 3;
+}
+
+.item_4 {
+  height: auto;
+  background-image: url(img/Фото.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item_5 {
+  grid-column: span 2;
+  height: auto;
+}
+
+.item_6 {
+  height: auto;
+}
+
+.item_7 {
+  grid-column: span 4;
+}
+
+.item_8 {
+  grid-column: span 2;
+  height: auto;
+}
+
+.item_9 {
+  grid-column: span 2;
+  height: auto;
+}
+
+.item_10 {
+  grid-column: span 4;
+}
+
+.item_11 {
+  height: auto;
+}
+
+.item_12 {
+  grid-column: span 3;
+  height: auto;
+}
